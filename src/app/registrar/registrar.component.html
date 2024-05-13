@@ -1,0 +1,78 @@
+<div class="container mt-5">
+    <div class="flex justify-center">
+        <div class="w-full md:w-8/12">
+            <div class="bg-white shadow-md rounded-md">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold">Registro de Alumno</h2>
+                </div>
+                <div class="p-4">
+                    <form>
+                        <div class="mb-4">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="numeroControl" class="block text-sm font-medium text-gray-700">Número de Control</label>
+                                    <input type="text" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="numeroControl" placeholder="Ingrese el número de control" ngModel name="numeroControl">
+                                </div>
+                                <div>
+                                    <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre</label>
+                                    <input type="text" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="nombre" placeholder="Ingrese el nombre" ngModel name="nombre">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <div>
+                                    <label for="apellido" class="block text-sm font-medium text-gray-700">Apellido</label>
+                                    <input type="text" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="apellido" placeholder="Ingrese el apellido" ngModel name="apellido">
+                                </div>
+                                <div>
+                                    <label for="curp" class="block text-sm font-medium text-gray-700">CURP</label>
+                                    <input type="text" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="curp" placeholder="Ingrese la CURP" ngModel name="curp">
+                                </div>
+                                <div>
+                                    <label for="telefono" class="block text-sm font-medium text-gray-700">Número Telefónico</label>
+                                    <input type="text" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="telefono" placeholder="Ingrese el número telefónico" ngModel name="telefono">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <div>
+                                    <label for="sexo" class="block text-sm font-medium text-gray-700">Sexo</label>
+                                    <select class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="sexo" ngModel name="sexo">
+                                        <option value="" disabled selected>Seleccionar sexo</option>
+                                        <option value="M">Masculino</option>
+                                        <option value="F">Femenino</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="edad" class="block text-sm font-medium text-gray-700">Edad</label>
+                                    <input type="number" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="edad" placeholder="Ingrese la edad" ngModel name="edad">
+                                </div>
+                                <div>
+                                    <label for="semestre" class="block text-sm font-medium text-gray-700">Semestre</label>
+                                    <input type="number" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="semestre" placeholder="Ingrese el semestre" ngModel name="semestre">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="grupo" class="block text-sm font-medium text-gray-700">Grupo</label>
+                                    <input type="text" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" id="grupo" placeholder="Ingrese el grupo" ngModel name="grupo">
+                                </div>
+                                <div>
+                                    <label for="boton" class="block text-sm font-medium text-gray-700">Acciones</label>
+                                    <div class="flex">
+                                        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Registrar</button>
+                                        <a href="/consultar" class="ml-2 text-blue-500">Consultar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

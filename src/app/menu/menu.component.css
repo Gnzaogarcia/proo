@@ -1,0 +1,33 @@
+.menu {
+    background-color: #1E90FF; /* Azul */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+  }
+  
+  .menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #0044ff; /* Azul más oscuro al pasar el ratón */
+  }
+  
+  .menu ul li a.active {
+    background-color: #FFD700; /* Amarillo para el enlace activo */
+    color: #333; /* Cambio de color de texto para el enlace activo */
+  }
+  
+  
